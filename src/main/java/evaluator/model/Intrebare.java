@@ -8,24 +8,27 @@ public class Intrebare {
 	private String enunt;
 	private String varianta1;
 	private String varianta2;
+	private String varianta3; ///
 	private String variantaCorecta;
 	private String domeniu;
 	
 	public Intrebare() {
 	}
 	
-	public Intrebare(String enunt, String varianta1, String varianta2,
-			String variantaCorecta, String domeniu) throws InputValidationFailedException {
+	public Intrebare(String enunt, String varianta1, String varianta2, String varianta3,
+			String variantaCorecta, String domeniu) throws InputValidationFailedException { ///
 		
 		InputValidation.validateEnunt(enunt);
 		InputValidation.validateVarianta1(varianta1);
 		InputValidation.validateVarianta2(varianta2);
+		InputValidation.validateVarianta3(varianta3); ///
 		InputValidation.validateVariantaCorecta(variantaCorecta);
 		InputValidation.validateDomeniu(domeniu);
-		
+
 		this.enunt = enunt;
 		this.varianta1 = varianta1;
 		this.varianta2 = varianta2;
+		this.varianta3 = varianta3;
 		this.variantaCorecta = variantaCorecta;
 		this.domeniu = domeniu;
 	}
@@ -76,4 +79,11 @@ public class Intrebare {
 		return false;
 	}
 
+	public String getVarianta3() { ///
+		return varianta3;
+	}
+
+	public void setVarianta3(String varianta3) {
+		this.varianta3 = varianta3;
+	}
 }

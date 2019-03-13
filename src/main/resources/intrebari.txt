@@ -1,0 +1,35 @@
+enunt intrebare 1
+varianta 1 intrebare 1
+varianta 2 intrebare 1
+varianta 3 intrebare 1
+varianta corecta intrebare 1
+domeniu intrebare 1
+##
+A95912955-abe5-456e-8?
+1)68bcda7d-dc3c-4800-9
+2)78a45d16-ca3c-4197-b
+3)aa54f06b-8ac3-4f60-b
+1
+A2179204b-6f49-4776-8
+##
+Acdccc7b8-5273-4021-a?
+1)fb3aac32-a722-4141-8
+2)5b90143f-ddd7-4e26-b
+3)550e9b57-447c-4120-8
+1
+A1af88296-b536-4be2-b
+##
+A896ce2a1-66b6-484b-8?
+1)87feebd7-a613-48dc-9
+2)26ac911b-573c-42fc-a
+3)45b60b9a-5666-4a04-a
+1
+Abb52aa4e-fcb6-4689-8
+##
+Afbadce17-f077-431e-9?
+1)e2c1fd35-722a-4f3f-8
+2)72af1d17-7ab8-4a54-8
+3)d9315af0-c5b1-415b-a
+1
+A4dd5bfc3-9e14-46fd-9
+##
