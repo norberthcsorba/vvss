@@ -40,6 +40,7 @@ public class StartApp {
 			
 			switch(optiune){
 			case "1" :
+				//appController.addNewIntrebare(); ///
 				break;
 			case "2" :
 				break;

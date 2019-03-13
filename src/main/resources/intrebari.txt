@@ -1,0 +1,6 @@
+enunt intrebare 1
+varianta 1 intrebare 1
+varianta 2 intrebare 1
+varianta 3 intrebare 1
+varianta corecta intrebare 1
+domeniu intrebare 1

@@ -87,6 +87,7 @@ public class IntrebariRepository {
 				intrebare.setEnunt(intrebareAux.get(0));
 				intrebare.setVarianta1(intrebareAux.get(1));
 				intrebare.setVarianta2(intrebareAux.get(2));
+				intrebare.setVarianta2(intrebareAux.get(3)); ///
 				intrebare.setVariantaCorecta(intrebareAux.get(4));
 				intrebare.setDomeniu(intrebareAux.get(5));
 				intrebari.add(intrebare);
