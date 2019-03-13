@@ -82,4 +82,8 @@ public class Intrebare {
 	public String getVarianta3() { ///
 		return varianta3;
 	}
+
+	public void setVarianta3(String varianta3) {
+		this.varianta3 = varianta3;
+	}
 }
