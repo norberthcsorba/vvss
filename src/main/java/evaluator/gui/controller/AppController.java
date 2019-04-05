@@ -21,9 +21,10 @@ public class AppController {
     }
 
     public Intrebare addNewIntrebare(Intrebare intrebare, String filePath) throws DuplicateIntrebareException, IOException {
-
+        if(intrebare == null || filePath == null || filePath.length() > 255){
+            throw new IllegalArgumentException();
+        }
         intrebariRepository.addIntrebare(intrebare, filePath);
-
         return intrebare;
     }
 
