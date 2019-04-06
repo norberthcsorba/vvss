@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db46a182-42f1-4039-aa1c-3392a410aaa5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProiectEvaluatorExamen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProiectEvaluatorExamen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/lab01/.~lock.Lab01_ReviewReport.xlsx#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/gui/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/gui/controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/intrebari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/intrebari.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/intrebari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/intrebari.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/evaluator/gui/controller/AppControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/evaluator/gui/controller/AppControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,12 +60,13 @@
     <session id="-1416754417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,14 +74,14 @@
           <entry key="JAVA/" value="1" />
           <entry key="JAVA/evaluator" value="1" />
           <entry key="gitkeep" value="1" />
-          <entry key="java" value="29" />
+          <entry key="java" value="34" />
           <entry key="txt" value="7" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="34" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="UML" value="2" />
           <entry key="XML" value="3" />
@@ -93,14 +89,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2280" />
+          <entry key="java" value="3203" />
           <entry key="txt" value="144" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2280" />
+          <entry key="JAVA" value="3203" />
           <entry key="PLAIN_TEXT" value="144" />
           <entry key="XML" value="1" />
         </counts>
@@ -109,17 +105,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/gui/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+            <state relative-caret-position="140">
+              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#575#576#0" expanded="true" />
                 <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="389">
+              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,20 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/gui/controller/AppControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="62" column="44" lean-forward="true" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="289">
+              <caret line="151" column="13" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -205,7 +190,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -286,6 +272,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProiectEvaluatorExamen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProiectEvaluatorExamen" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,7 +335,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554493384407" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554582093720" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab01/5-ProiectEvaluatorExamen/ProiectEvaluatorExamen" />
@@ -415,6 +410,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppControllerTest.createNewTest_NoIntrebari_NotAbleToCreateTestExceptionIsThrown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProiectEvaluatorExamen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="evaluator.gui.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <option name="PACKAGE_NAME" value="evaluator.gui.controller" />
+      <option name="MAIN_CLASS_NAME" value="evaluator.gui.controller.AppControllerTest" />
+      <option name="METHOD_NAME" value="createNewTest_NoIntrebari_NotAbleToCreateTestExceptionIsThrown" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="recording" autostart="true" />
@@ -445,10 +458,12 @@
     <list>
       <item itemvalue="Application.StartApp" />
       <item itemvalue="JUnit.AppControllerTest" />
+      <item itemvalue="JUnit.AppControllerTest.createNewTest_NoIntrebari_NotAbleToCreateTestExceptionIsThrown" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AppControllerTest" />
+        <item itemvalue="JUnit.AppControllerTest.createNewTest_NoIntrebari_NotAbleToCreateTestExceptionIsThrown" />
         <item itemvalue="Application.StartApp" />
       </list>
     </recent_temporary>
@@ -471,47 +486,51 @@
       <workItem from="1552509633726" duration="141000" />
       <workItem from="1552900361525" duration="383000" />
       <workItem from="1552903266608" duration="1978000" />
-      <workItem from="1554483394686" duration="5509000" />
+      <workItem from="1554483394686" duration="5864000" />
+      <workItem from="1554572570871" duration="7679000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppControllerTest - 2019.04.05 at 22h 26m 49s.xml">
+    <history-entry file="AppControllerTest - 2019.04.06 at 22h 49m 46s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.05 at 22h 27m 19s.xml">
+    <history-entry file="AppControllerTest - 2019.04.06 at 22h 49m 56s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.05 at 22h 29m 20s.xml">
+    <history-entry file="AppControllerTest - 2019.04.06 at 22h 50m 05s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.05 at 22h 31m 45s.xml">
+    <history-entry file="AppControllerTest - 2019.04.06 at 22h 51m 07s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.05 at 22h 32m 24s.xml">
+    <history-entry file="AppControllerTest - 2019.04.06 at 22h 51m 16s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.05 at 22h 36m 06s.xml">
+    <history-entry file="AppControllerTest - 2019.04.06 at 22h 52m 49s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.05 at 22h 38m 10s.xml">
+    <history-entry file="AppControllerTest - 2019.04.06 at 22h 54m 16s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.05 at 22h 39m 04s.xml">
+    <history-entry file="AppControllerTest - 2019.04.06 at 22h 58m 30s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppControllerTest - 2019.04.05 at 22h 39m 33s.xml">
+    <history-entry file="AppControllerTest - 2019.04.06 at 23h 19m 44s.xml">
+      <configuration name="AppControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppControllerTest - 2019.04.06 at 23h 20m 06s.xml">
       <configuration name="AppControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22724000" />
+    <option name="totallyTimeSpent" value="30758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20735608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -708,18 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
-            <element signature="e#2207#2208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -729,39 +736,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="560">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/gui/controller/AppController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Intrebare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+        <state relative-caret-position="200">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#2174#2175#0" expanded="true" />
+            <element signature="e#2207#2208#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/repository/IntrebariRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="389">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/gui/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/gui/controller/AppControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="62" column="44" lean-forward="true" selection-start-line="62" selection-start-column="44" selection-end-line="62" selection-end-column="44" />
+        <state relative-caret-position="289">
+          <caret line="151" column="13" selection-start-line="151" selection-start-column="13" selection-end-line="151" selection-end-column="13" />
         </state>
       </provider>
     </entry>
