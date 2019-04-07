@@ -12,32 +12,40 @@
 <p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="https://www.scs.ubbcluj.ro/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></div>
 <div class="doc_title"><p>Test Specification</p></div>
 <div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj231<br>Test Suite: Prj231 - cnir2083_BBT</p></div>
-<div class="summary"><p id="printedby">Printed by TestLink on 05/04/2019</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 07/04/2019</p></div>
 <div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
 <h1 class="doclevel" >Scope</h1>
 <div class="txtlevel"><p>
 	Testing project for group 231.</p></div>
  <br/><h1 class='doclevel'>Test Suite : cnir2083_BBT</h1>
 <p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj231-83: ECPValid</th></tr>
-<tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Test date valide pt <u>AppController.addNewIntrebare</u>.&nbsp;<em>intrebare</em> valida, <em>filePath</em> string valid</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr></table>
 </div>
 <p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj231-84: ECPInvalid</th></tr>
-<tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Test date invalide pt&nbsp;<u>AppController.addNewIntrebare</u>.&nbsp;<em>intrebare</em> invalida (null), <em>filePath</em>&nbsp;string valid</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr></table>
 </div>
 <p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj231-85: BVAValid</th></tr>
-<tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Test date valide pt <u>AppController.addNewIntrebare</u>&nbsp;cu filePath la limita EC. <em>intrebare</em> valida,&nbsp;&nbsp;<em>filePath</em> de lungime 0</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr></table>
 </div>
 <p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj231-86: BVAInvalid</th></tr>
-<tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Manual</td></tr>
+<tr><td colspan="3"><span class="label">Summary:</span><br /><p>
+	Test date invalide pt <u>AppController.addNewIntrebare</u> cu filePath la (limita superioara EC) + 1. <em>intrebare</em> valida, <em>filePath</em> string de lungime 256 (max+1)</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Execution type:</span></td><td colspan="2">Automated</td></tr>
 <tr><td width="20%" valign="top"><span class="label">Estimated exec. duration (min):</span></td><td colspan="2"></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr></table>

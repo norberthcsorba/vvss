@@ -49,7 +49,20 @@ public class AppControllerTest {
         //Act
         try {
             appController.addNewIntrebare(null, "valid");
+        } catch (DuplicateIntrebareException | IOException ex) {
             fail();
+        }
+    }
+
+    //TC3_ECP / TC1_BVA
+    @Test(expected = IllegalArgumentException.class)
+    public void addNewIntrebare_FilePathIsNull_IllegalArgumentExceptionIsThrown(){
+        //Arrange
+        appController = new AppController(repo);
+        Intrebare intrebare = createValidIntrebare();
+        //Act
+        try {
+            appController.addNewIntrebare(intrebare, null);
         } catch (DuplicateIntrebareException | IOException ex) {
             fail();
         }
@@ -71,6 +84,23 @@ public class AppControllerTest {
         }
     }
 
+    //TC3_BVA
+    @Test
+    public void addNewIntrebare_FilePathHasLength1_IntrebareIsReturned(){
+        //Arrange
+        appController = new AppController(repo);
+        Intrebare intrebare = createValidIntrebare();
+        //Act
+        try {
+            Intrebare result = appController.addNewIntrebare(intrebare, "1");
+            //Assert
+            assertEquals(intrebare, result);
+        } catch (DuplicateIntrebareException | IOException ex) {
+            fail();
+        }
+    }
+
+
     //TC6_BVA
     @Test(expected = IllegalArgumentException.class)
     public void addNewIntrebare_FilePathHasLength256_IllegalArgumentExceptionIsThrown() {
@@ -85,7 +115,6 @@ public class AppControllerTest {
         //Act
         try {
             Intrebare result = appController.addNewIntrebare(intrebare, filePath);
-            fail();
         } catch (DuplicateIntrebareException | IOException ex) {
             fail();
         }
