@@ -71,7 +71,7 @@ public class AppController {
 
         Statistica statistica = new Statistica();
         for (String domeniu : intrebariRepository.getDistinctDomains()) {
-            statistica.add(domeniu, intrebariRepository.getIntrebari().size());
+            statistica.add(domeniu, intrebariRepository.getIntrebariByDomain(domeniu).size());
         }
 
         return statistica;

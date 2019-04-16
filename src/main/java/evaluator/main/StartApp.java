@@ -7,6 +7,7 @@ import evaluator.exception.NotAbleToCreateTestException;
 import evaluator.gui.controller.AppController;
 import evaluator.model.Intrebare;
 import evaluator.model.Statistica;
+import evaluator.model.Test;
 import evaluator.repository.IntrebariRepository;
 
 import java.io.BufferedReader;
@@ -21,11 +22,12 @@ import java.util.UUID;
 
 public class StartApp {
 
-    private static final String file = "src/main/resources/intrebari.txt";
+    private static String file = "src/main/resources/intrebari.txt";
+
+    private static BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 
         IntrebariRepository intrebariRepository = new IntrebariRepository();
         intrebariRepository.setIntrebari(intrebariRepository.loadIntrebariFromFile(file));
@@ -57,13 +59,15 @@ public class StartApp {
                     try {
                         Intrebare intrebare = new Intrebare(enunt, varianta1, varianta2, varianta3, variantaCorecta, domeniu);
                         appController.addNewIntrebare(intrebare, file);
+                        System.out.println(intrebare);
                     } catch (InputValidationFailedException | DuplicateIntrebareException ex) {
                         ex.printStackTrace();
                     }
                     break;
                 case "2":
                     try {
-                        appController.createNewTest();
+                        Test test = appController.createNewTest();
+                        System.out.println(test);
                     } catch (NotAbleToCreateTestException ex) {
                         ex.printStackTrace();
                     }
